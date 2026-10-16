@@ -12,12 +12,12 @@ public class Pruebita {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("> ");
-//
-//        if (){
-//
-//        } else if () {
-//
-//        }
+
+        if (){
+
+        } else if () {
+
+        }
 
 
     }

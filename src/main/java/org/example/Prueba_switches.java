@@ -1,5 +1,7 @@
 package org.example;
 
+import java.time.LocalDateTime;
+
 public class Prueba_switches {
 
     static void main() {
@@ -32,9 +34,15 @@ public class Prueba_switches {
             case 10:
                 System.out.println("SOBRESALIENTE++");
                 break;
+            default:
+                System.out.println("NOTA NO VÁLIDA");
+                break;
         };
 
 
+        LocalDateTime actual = LocalDateTime.now();
+
+        System.out.println(actual.getYear());
 
     }
 }
